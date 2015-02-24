@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Menu extends ActionBarActivity {
+public class MENU extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,60 +35,52 @@ public class Menu extends ActionBarActivity {
             public void onClick(View v) {
                 switch (v.getId()) {
                     case R.id.button1:
-                        Intent intent = new Intent(Menu.this, Overview.class);
+                        Intent intent = new Intent(MENU.this, IF.class);
                         startActivity(intent);
                         break;
                     case R.id.button2:
-                        Intent intent2 = new Intent(Menu.this, Recommendations.class);
+                        Intent intent2 = new Intent(MENU.this, ELSEIF.class);
                         startActivity(intent2);
                         break;
                     case R.id.button3:
-                        Intent intent3 = new Intent(Menu.this, Outgoings.class);
+                        Intent intent3 = new Intent(MENU.this, WHILE.class);
                         startActivity(intent3);
                         break;
                     case R.id.button4:
-                        Intent intent4 = new Intent(Menu.this, Income.class);
+                        Intent intent4 = new Intent(MENU.this, DOWHILE.class);
                         startActivity(intent4);
                         break;
                     case R.id.button5:
-                        Intent intent5 = new Intent(Menu.this, Settings.class);
+                        Intent intent5 = new Intent(MENU.this, SWITCH.class);
                         startActivity(intent5);
                         break;
                     case R.id.button6:
-                        Intent intent6 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent6 = new Intent(MENU.this, TYPES.class);
                         startActivity(intent6);
                         break;
                     case R.id.button7:
-                        Intent intent7 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent7 = new Intent(MENU.this, PRINTING.class);
                         startActivity(intent7);
                         break;
                     case R.id.button8:
-                        Intent intent8 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent8 = new Intent(MENU.this, OPERATORS.class);
                         startActivity(intent8);
                         break;
                     case R.id.button9:
-                        Intent intent9 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent9 = new Intent(MENU.this, CLASSES.class);
                         startActivity(intent9);
                         break;
                     case R.id.button10:
-                        Intent intent10 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent10 = new Intent(MENU.this, NAMESPACES.class);
                         startActivity(intent10);
                         break;
                     case R.id.button11:
-                        Intent intent11 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent11 = new Intent(MENU.this, INCLUDE.class);
                         startActivity(intent11);
                         break;
                     case R.id.button12:
-                        Intent intent12 = new Intent(Menu.this, LogExpenditure.class);
+                        Intent intent12 = new Intent(MENU.this, POINTERS.class);
                         startActivity(intent12);
-                        break;
-                    case R.id.button13:
-                        Intent intent13 = new Intent(Menu.this, LogExpenditure.class);
-                        startActivity(intent13);
-                        break;
-                    case R.id.button14:
-                        Intent intent14 = new Intent(Menu.this, LogExpenditure.class);
-                        startActivity(intent14);
                         break;
                 }
             }

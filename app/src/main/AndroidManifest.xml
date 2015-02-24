@@ -7,9 +7,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <activity
-            android:name=".Menu"
+            android:name=".MENU"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +16,102 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".IF"
+            android:label="@string/title_activity_if"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".ELSEIF"
+            android:label="@string/title_activity_elseif"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".WHILE"
+            android:label="@string/title_activity_while"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".DOWHILE"
+            android:label="@string/title_activity_dowhile"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".SWITCH"
+            android:label="@string/title_activity_switch"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".TYPES"
+            android:label="@string/title_activity_types"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".PRINTING"
+            android:label="@string/title_activity_printing"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".OPERATORS"
+            android:label="@string/title_activity_operators"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".CLASSES"
+            android:label="@string/title_activity_classes"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".NAMESPACES"
+            android:label="@string/title_activity_namespaces"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MENU" />
+        </activity>
+        <activity
+            android:name=".INCLUDE"
+            android:label="@string/title_activity_include"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="teamprojectgroup3.codesyntaxguide.MENU" />
+        </activity>
+        <activity
+            android:name=".POINTERS"
+            android:label="@string/title_activity_pointers"
+            android:parentActivityName=".MENU" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="teamprojectgroup3.codesyntaxguide.MENU" />
+        </activity>
     </application>
 
 </manifest>

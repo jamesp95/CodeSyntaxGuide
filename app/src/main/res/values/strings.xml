@@ -10,4 +10,18 @@
     <color name="blue">#39B7CD</color>
     <color name="red">#B0171F</color>
 
+    <string name="title_activity_if">IF</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_elseif">ELSEIF</string>
+    <string name="title_activity_while">WHILE</string>
+    <string name="title_activity_dowhile">DOWHILE</string>
+    <string name="title_activity_switch">SWITCH</string>
+    <string name="title_activity_types">TYPES</string>
+    <string name="title_activity_printing">PRINTING</string>
+    <string name="title_activity_operators">OPERATORS</string>
+    <string name="title_activity_classes">CLASSES</string>
+    <string name="title_activity_namespaces">NAMESPACES</string>
+    <string name="title_activity_include">INCLUDE</string>
+    <string name="title_activity_pointers">POINTERS</string>
+
 </resources>
